@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="IronXL.Excel" Version="2023.4.13" />
+    <PackageReference Include="Microsoft.Edge.SeleniumTools" Version="3.141.3" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.27.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="111.0.5563.6400" />
+    <PackageReference Include="Selenium.WebDriver.IEDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.MicrosoftDriver" Version="17.17134.0" />
+    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="110.0.1587.50" />
+    <PackageReference Include="WebDriverManager" Version="2.16.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="FailedScreenshots\" />
+    <Folder Include="PassScreenshots\" />
+  </ItemGroup>
+
+</Project>

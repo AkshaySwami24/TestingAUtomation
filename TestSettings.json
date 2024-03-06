@@ -1,0 +1,12 @@
+﻿{
+  "webdriver": {
+    "BrowserName": "Edge",
+    "ScreenshotsPath": "C:\\screenshots\\",
+    "DefaultTimeout": "10",
+    "BrowserLanguage": "en"
+  },
+  "environment": {
+    "ApplicationName": "Talisma",
+    "ApplicationUrl": "https://srv1-crm12.saas.talismaonline.com/webclient/Login.aspx"
+  }
+}
